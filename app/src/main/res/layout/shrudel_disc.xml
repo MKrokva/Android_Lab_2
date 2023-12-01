@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shtudel" />
+
+    <TextView
+        android:id="@+id/shtrudelrecepieText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        android:text="ПРИГОТУВАННЯ\n
+        1. Розморожуємо тісто за інструкцією на упаковці.\n
+        2. Гриби та цибулю нарізаємо, солимо і смажимо на розігрітій сковороді з олією до золотистого кольору. Даємо охолонути.\n
+        3. Куряче філе відварюємо в підсоленій воді, нарізаємо невеликими кубиками та додаємо до грибів.\n
+        4. Сир натираємо на грубій тертці, перемішуємо з грибами та курятиною. Додаємо сметану.\n
+        5. Тісто тонко розкачуємо. Вздовж однієї сторони викладаємо начинку.\n
+        6. Вершкове масло розтоплюємо, змащуємо тісто навколо начинки.\n
+        7. Загортаємо тісто в рулет, закриваємо краї.\n
+        8. Викладаємо штрудель на деко, застелене пергаментом. Змащуємо розтопленим вершковим маслом.\n
+        9. Випікаємо у розігрітій до температури 190 °C духовці протягом 30–40 хвилин до рум’яної скоринки.\n\n
+        Розрізаємо штрудель, викладаємо на тарілки та кличемо домашніх до столу!"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+</LinearLayout>

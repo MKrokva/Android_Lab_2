@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/boxFragment">
+
+    <fragment
+        android:id="@+id/boxFragment"
+        android:name="com.example.myapplication.BoxFragment"
+        android:label="fragment_box"
+        tools:layout="@layout/fragment_box" >
+        <action
+            android:id="@+id/action_boxFragment_to_discShtrudel"
+            app:destination="@id/discShtrudel" />
+        <action
+            android:id="@+id/action_boxFragment_to_discCrambl"
+            app:destination="@id/discCrambl" />
+        <action
+            android:id="@+id/action_boxFragment_to_discPancakes"
+            app:destination="@id/discPancakes" />
+    </fragment>
+    <fragment
+        android:id="@+id/discPancakes"
+        android:name="com.example.myapplication.discPancakes"
+        android:label="pancakes_disc"
+        tools:layout="@layout/pancakes_disc" />
+    <fragment
+        android:id="@+id/discCrambl"
+        android:name="com.example.myapplication.discCrambl"
+        android:label="crambl_disc"
+        tools:layout="@layout/crambl_disc" />
+    <fragment
+        android:id="@+id/discShtrudel"
+        android:name="com.example.myapplication.discShtrudel"
+        android:label="shrudel_disc"
+        tools:layout="@layout/shrudel_disc" />
+</navigation>

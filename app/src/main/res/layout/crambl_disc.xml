@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/crambl" />
+
+    <TextView
+        android:id="@+id/cramblerecepie"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:fontFamily="sans-serif"
+        android:text="ПРИГОТУВАННЯ\n
+        1. Охолоджене вершкове масло натираємо на грубій тертці. Поміщаємо в глибоку посудину. Додаємо 110 г пшеничного борошна, 90 г цукру, корицю та імбир. Змішуємо до однорідності. \n
+        2. Загортаємо тісто в харчову плівку й ставимо на півгодини в морозильну камеру. \n
+        3. Яблука очищаємо від шкірки, видаляємо серцевини. Ріжемо невеликими кубиками та збризкуємо лимонним соком для збереження свіжості й кольору. \n
+        4. До яблук додаємо 100 г цукру і 30 г борошна, перемішуємо. Начинка готова. \n
+        5. Дно форми для запікання змащуємо рослинною олією, викладаємо підготовлені яблука.\n
+        6. Дістаємо тісто з морозилки, натираємо на грубій тертці й викладаємо на яблука. \n
+        7. Ставимо пиріг у розігріту до 180 °С духовку та випікаємо протягом 45–60 хвилин. Коли верхівка набуде приємного золотистого кольору, а яблука розм’якнуть, страва готова! \n
+        Викладіть яблучний крамбл на тарілки, доповніть кулькою морозива та подавайте до столу."
+        android:textSize="17sp" />
+
+</LinearLayout>

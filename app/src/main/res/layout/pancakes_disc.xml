@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pancakes" />
+
+
+        <TextView
+            android:id="@+id/pancakesrecepie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:fontFamily="sans-serif"
+            android:textSize="17sp"
+            android:text="ПРИГОТУВАННЯ\n
+            1. У великій посудині перемішуємо сметану, яйця, олію, сіль та цукор.\n
+            2. Шпинат розморожуємо, збиваємо у блендері до однорідності, разом із молоком додаємо до яєчно-сметанної маси.\n
+            3. Просіюємо борошно, змішуємо з розпушувачем та дрібкою соди. Додаємо до шпинатної суміші.\n
+            4. На розігріту сковороду невеликими острівцями викладаємо тісто. Підсмажуємо з двох боків до готовності.\n
+            5. Готові панкейки викладаємо на тарілки, даємо кілька хвилин охолонути. Поливаємо сметанкою та смакуємо теплими.\n" />
+</LinearLayout>
